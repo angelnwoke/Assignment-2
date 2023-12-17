@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Afacad', sans-serif;
+}
+
+body{
+    background: #f7fdfc;
+}
+
+.container{
+    width: 95%;
+    margin-top: 3em;
+}
+
+.container-text h3{
+    margin-left: .6em;
+    font-size: 1.5em;
+}
+
+.container-text p{
+    margin: 1em;
+    /* width: 95%; */
+    color: #737373;
+    font-size: .8em;
+}
+
+.container-form{
+    margin: 2.5em 1em;
+    width: 95%;
+    padding: .5em;
+    background: #ffffff;
+    border-radius: .2em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.input-container label{
+    font-weight: bold;
+    margin: .8em .8em;
+    font-size: .8em;
+}
+
+#tolu{
+    border:3px solid #2EC4B6;
+}
+
+.input-container input , select{
+    margin: .8em .8em;
+    width: 90%;
+    padding: .5em;
+    border-radius: .2em;
+    border: .1px solid #2EC4B6;
+    opacity: .3;
+    outline:none;
+}
+
+.input-container button{
+    margin: .8em .8em;
+    width: 90%;
+    text-align: center;
+    padding: .5em;
+    border: none;
+    background: #2EC4B6;
+    color: #ffffff;
+    border-radius: .2em;
+}
+
+
+.wrapper p{
+    margin: .8em .8em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.wrapper a {
+    color: #2EC4B6;
+}
+
+@media screen and (min-width: 1176px){
+    .container{
+        display: flex;
+        flex-direction: row;
+        /* justify-content: space-around; */
+    }
+
+    .container-text{
+        width: 45%;
+        margin-top: 8em;
+        margin-left: 8em;
+    }
+
+    .container-text h3{
+        font-size: 1.8rem;
+        margin-top: 1em;
+    }
+
+    .container-text p{
+        font-size: 1em;
+        width: 80%;
+        line-height: 1.8em;
+    }
+
+    .container-form{
+        width: 55%;
+        padding: 1em;
+        /* margin-right: 6em; */
+    }
+
+    .input-container label{
+        font-size: .8em;
+    }
+
+    .input-container input , select{
+        margin: 1em 1em;
+        width: 20em;
+        padding: .8em;
+        border-radius: .2em;
+        border: .1px solid #2EC4B6;
+        opacity: .3;
+        outline:none;
+    }
+
+    .wrapper{
+        display: flex;
+        justify-content: center;
+    }
+
+    .input-container button, #activity, #password{
+        width: 42em;
+        padding: .8em;
+    }
+
+    .wrapper p{
+        margin: 1em 1em;
+        font-size: .9em;
+    }
+}
